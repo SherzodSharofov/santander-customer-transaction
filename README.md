@@ -2,7 +2,7 @@
 ```
 santander-customer-transaction/
 ├── README.md
-├── data/                          # original data(train and test)
+├── data/                          # train and test data
 ├── lgbm_with_optuna.ipynb         # EDA, model training and hyperparameter optimization with Optuna
 ├── lgbm_with_optuna.db            # SQLite database for saving Optuna optimization progress
 ├── lgbm_best_model.joblib         # saved model with pipeline
